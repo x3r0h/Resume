@@ -1,106 +1,118 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Johnathan Gray | Full Stack Developer</title>
+  <title>Johnathan Gray | Full Stack Engineer</title>
   <style>
     body {
-      margin: 0;
       font-family: Arial, sans-serif;
       background-color: #f4f4f4;
       color: #333;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
     }
-    header {
-      background-color: #222;
-      color: #fff;
+    .container {
+      max-width: 900px;
+      margin: auto;
       padding: 2rem;
+      background: #fff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h1, h2, h3 {
+      color: #2c3e50;
+    }
+    .contact, .section {
+      margin-bottom: 1.5rem;
+    }
+    .download {
+      margin-top: 2rem;
+    }
+    button {
+      background-color: #3498db;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    .easter-egg {
+      font-size: 12px;
       text-align: center;
-    }
-    main {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 1rem;
-      background-color: #fff;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    section {
-      margin-bottom: 2rem;
-    }
-    h1, h2 {
-      margin-bottom: 0.5rem;
-    }
-    a {
-      color: #007acc;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
+      margin-top: 2rem;
+      color: #999;
     }
   </style>
 </head>
 <body>
-  <header>
+  <div class="container">
     <h1>Johnathan Gray</h1>
-    <p>Full Stack & Systems Developer | Visionary Builder</p>
-    <p>
-      <a href="mailto:johnathan.the.white@gmail.com">johnathan.the.white@gmail.com</a> | 
-      <a href="https://www.linkedin.com/in/INOV83D/" target="_blank">LinkedIn</a>
+    <p class="contact">
+      <strong>Title:</strong> Full Stack Engineer • JS/Web Components Specialist<br>
+      <strong>Email:</strong> <a href="mailto:Johnathan.the.White@gmail.com">Johnathan.the.White@gmail.com</a><br>
+      <strong>Phone:</strong> 737-977-4271<br>
+      <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/INOV83D/" target="_blank">linkedin.com/in/INOV83D</a><br>
     </p>
-  </header>
 
-  <main>
-    <section>
+    <div class="section">
       <h2>About Me</h2>
-      <p>
-        Passionate full stack developer and systems architect with experience across Elixir, HTML/CSS, JavaScript, C++, and C#. Specializing in distributed systems, dashboards, API integration, and high-availability architecture. Committed to building impactful tech for transformation and innovation.
-      </p>
-    </section>
+      <p>Visionary technologist with a strong background in financial systems, real-time dashboards, microservices, and pure JavaScript applications. Passionate about building clean, fast, maintainable code with a sharp eye for design, interactivity, and user-centric functionality.</p>
+    </div>
 
-    <section>
-      <h2>Skills</h2>
+    <div class="section">
+      <h2>Technical Skills</h2>
       <ul>
-        <li>JavaScript / HTML / CSS</li>
-        <li>Elixir / Phoenix</li>
-        <li>C++ / C#</li>
-        <li>Node.js / Express</li>
-        <li>React / Vue</li>
-        <li>SQL / PostgreSQL / NoSQL</li>
-        <li>API Design & Integration</li>
+        <li>Languages: JavaScript (Vanilla, ES6+), Elixir, HTML5, CSS3, C++, C#</li>
+        <li>Web Components, Custom Elements, Shadow DOM</li>
+        <li>API Integration, RESTful Services, JSON Contracts</li>
+        <li>Tooling: Docker, Git, Node.js, Nginx</li>
+        <li>Platforms: Zoom SDK, Plaid, Feature Flags, CDN delivery</li>
       </ul>
-    </section>
+    </div>
 
-    <section>
+    <div class="section">
       <h2>Projects</h2>
       <ul>
-        <li><strong>Distributed Dashboard System:</strong> Pure JS, data contracts, real-time updates</li>
-        <li><strong>LUX CORE Mk.1 Lightsaber:</strong> Hardware/software integration with embedded sensors</li>
-        <li><strong>OnlyFans Bot System:</strong> AI persona engine, automation, and messaging</li>
+        <li><strong>Realtime Financial Dashboard:</strong> Custom pure JS dashboard system running across internal CDNs, synced via feature flags, visualizing live contract and transaction data.</li>
+        <li><strong>Component Shell for FinTech Suite:</strong> Dynamic component loader for loans, credit card processing, and third-party integrations.</li>
+        <li><strong>JS Feature Flag Router:</strong> Logic to split feature release by user segments (e.g., 20% enabled, 80% blocked).</li>
       </ul>
-    </section>
+    </div>
 
-    <section>
-      <h2>Contact</h2>
-      <p>
-        Phone: 737-977-4271<br />
-        Email: <a href="mailto:johnathan.the.white@gmail.com">johnathan.the.white@gmail.com</a>
-      </p>
-    </section>
-  </main>
+    <div class="section">
+      <h2>Experience</h2>
+      <p><strong>Independent Full Stack Developer</strong> — 2019–Present</p>
+      <ul>
+        <li>Built reusable, framework-free JavaScript components for dynamic rendering and routing.</li>
+        <li>Designed data validation systems between frontend dashboards and backend JSON contracts.</li>
+        <li>Served content through Dockerized services deployed to private CDNs.</li>
+      </ul>
+    </div>
 
-  <!-- Subtle Developer Easter Egg -->
+    <div class="section">
+      <h2>Education</h2>
+      <p>B.S. in Computer Science (Self-Directed | Project-Based Focus)</p>
+    </div>
+
+    <div class="download">
+      <a href="resume.pdf" download><button>Download PDF Resume</button></a>
+    </div>
+
+    <div class="easter-egg">
+      <p id="easterText">Inspect the console if you're curious. 🐣</p>
+    </div>
+  </div>
+
   <script>
-    (() => {
-      const msg = [
-        ["%cHey curious mind 👀", "color: teal; font-size: 20px; font-weight: bold;"],
-        ["I'm Johnathan Gray — Full Stack Developer, Visionary Builder, Systems Thinker.", "color: gray; font-size: 14px;"],
-        ["🔗 LinkedIn: https://www.linkedin.com/in/INOV83D/", ""],
-        ["📧 Email: johnathan.the.white@gmail.com", ""],
-        ["💡 Try running: sayHi()", ""]
-      ];
-      msg.forEach(([m, s]) => console.log(`%c${m}`, s));
-      window.sayHi = () => alert("👋 You found the hidden command! Respect. – Johnathan Gray ⚡️");
-    })();
+    // 🔒 Subtle JS Easter Egg
+    console.log("👀 Welcome fellow developer. This resume is built from scratch using pure HTML, CSS, and JS. Reach out if you're interested in collaborating on clean UI systems, real-time dashboards, or futuristic interfaces. 🚀\n- Johnathan");
+
+    // 🎲 Feature flag rollout simulation (example logic)
+    const userId = Math.floor(Math.random() * 1000);
+    const featureEnabled = userId % 5 === 0; // 20% chance
+    console.log(`Feature Flag: ${featureEnabled ? 'ENABLED' : 'DISABLED'} for user ${userId}`);
   </script>
 </body>
 </html>
