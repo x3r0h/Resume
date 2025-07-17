@@ -1,118 +1,137 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Johnathan Gray | Full Stack Engineer</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Johnathan Gray | Systems Architect</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      color: #333;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
-      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
     }
-    .container {
+    header {
+      background-color: #222;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    main {
+      padding: 2rem;
       max-width: 900px;
       margin: auto;
-      padding: 2rem;
-      background: #fff;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
-    h1, h2, h3 {
-      color: #2c3e50;
+    h1, h2 {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.5rem;
     }
-    .contact, .section {
-      margin-bottom: 1.5rem;
+    section {
+      margin-bottom: 2rem;
     }
-    .download {
-      margin-top: 2rem;
-    }
-    button {
-      background-color: #3498db;
+    .download-link {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: #007BFF;
       color: white;
-      border: none;
-      padding: 10px 15px;
-      cursor: pointer;
-      border-radius: 4px;
+      text-decoration: none;
+      border-radius: 5px;
     }
-    .easter-egg {
-      font-size: 12px;
-      text-align: center;
-      margin-top: 2rem;
+    .download-link:hover {
+      background-color: #0056b3;
+    }
+    .egg {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      font-size: 8px;
       color: #999;
+      user-select: none;
     }
   </style>
 </head>
 <body>
-  <div class="container">
+  <header>
     <h1>Johnathan Gray</h1>
-    <p class="contact">
-      <strong>Title:</strong> Full Stack Engineer • JS/Web Components Specialist<br>
-      <strong>Email:</strong> <a href="mailto:Johnathan.the.White@gmail.com">Johnathan.the.White@gmail.com</a><br>
-      <strong>Phone:</strong> 737-977-4271<br>
-      <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/INOV83D/" target="_blank">linkedin.com/in/INOV83D</a><br>
-    </p>
+    <p>Systems Architect | Full-Stack Engineer | Automation Specialist</p>
+    <p><a href="mailto:Johnathan.the.White@gmail.com" style="color:#ccc;">Johnathan.the.White@gmail.com</a> | 737-977-4271</p>
+    <p><a href="https://www.linkedin.com/in/INOV83D/" style="color:#ccc;" target="_blank">LinkedIn</a></p>
+    <a href="Johnathan_Gray_Resume.pdf" download class="download-link">Download PDF Resume</a>
+  </header>
 
-    <div class="section">
-      <h2>About Me</h2>
-      <p>Visionary technologist with a strong background in financial systems, real-time dashboards, microservices, and pure JavaScript applications. Passionate about building clean, fast, maintainable code with a sharp eye for design, interactivity, and user-centric functionality.</p>
-    </div>
+  <main>
+    <section>
+      <h2>Summary</h2>
+      <p>Multi-paradigm software engineer with deep expertise in JavaScript, Elixir, C++, and C#. Proven track record leading SaaS platforms, AV systems, and automation for aerospace and live events. NASA innovation award winner and former CTO driving lean system integration and product delivery.</p>
+    </section>
 
-    <div class="section">
+    <section>
       <h2>Technical Skills</h2>
       <ul>
-        <li>Languages: JavaScript (Vanilla, ES6+), Elixir, HTML5, CSS3, C++, C#</li>
-        <li>Web Components, Custom Elements, Shadow DOM</li>
-        <li>API Integration, RESTful Services, JSON Contracts</li>
-        <li>Tooling: Docker, Git, Node.js, Nginx</li>
-        <li>Platforms: Zoom SDK, Plaid, Feature Flags, CDN delivery</li>
+        <li><strong>Frontend:</strong> JavaScript (ES6+), Web Components, HTML5, CSS3, Shadow DOM</li>
+        <li><strong>Backend:</strong> Elixir (Phoenix), Node.js, REST APIs, OAuth, JSON Schema</li>
+        <li><strong>Systems/Native:</strong> C++, C#, Robotics, CNC, RPA, BAS</li>
+        <li><strong>DevOps & Infra:</strong> Docker, VPN, Internal CDNs, Network Integration</li>
+        <li><strong>Automation:</strong> Process Automation, Home Automation, System Integration Testing</li>
+        <li><strong>Design:</strong> UI/UX, CAD, Adobe Creative Suite, AV Systems</li>
+        <li><strong>Tools:</strong> Git, Google Workspace, MailChimp, AutoCAD</li>
       </ul>
-    </div>
+    </section>
 
-    <div class="section">
-      <h2>Projects</h2>
+    <section>
+      <h2>Professional Experience</h2>
+
+      <h3>INOV83D — Founder, Coach, Software Lead</h3>
+      <p>Houston, TX | 2023–Present</p>
       <ul>
-        <li><strong>Realtime Financial Dashboard:</strong> Custom pure JS dashboard system running across internal CDNs, synced via feature flags, visualizing live contract and transaction data.</li>
-        <li><strong>Component Shell for FinTech Suite:</strong> Dynamic component loader for loans, credit card processing, and third-party integrations.</li>
-        <li><strong>JS Feature Flag Router:</strong> Logic to split feature release by user segments (e.g., 20% enabled, 80% blocked).</li>
+        <li>Built financial SaaS and coaching dashboards leveraging JS and Elixir.</li>
+        <li>Led marketing automation with Adobe Suite and MailChimp integrations.</li>
       </ul>
-    </div>
 
-    <div class="section">
-      <h2>Experience</h2>
-      <p><strong>Independent Full Stack Developer</strong> — 2019–Present</p>
+      <h3>GeoGro — CTO / Chief Design Officer</h3>
+      <p>Remote | 2022–2025</p>
       <ul>
-        <li>Built reusable, framework-free JavaScript components for dynamic rendering and routing.</li>
-        <li>Designed data validation systems between frontend dashboards and backend JSON contracts.</li>
-        <li>Served content through Dockerized services deployed to private CDNs.</li>
+        <li>Led product architecture for NASA Plant the Moon award-winning project.</li>
+        <li>Developed robotics automation and plant growth analytics systems.</li>
       </ul>
-    </div>
 
-    <div class="section">
-      <h2>Education</h2>
-      <p>B.S. in Computer Science (Self-Directed | Project-Based Focus)</p>
-    </div>
+      <h3>The Vardo Agency — Director of Technical Operations</h3>
+      <p>2023–2025</p>
+      <ul>
+        <li>Oversaw video production, AV integration, and custom software automation.</li>
+        <li>Directed cross-functional teams to deliver software solutions and campaigns.</li>
+      </ul>
 
-    <div class="download">
-      <a href="resume.pdf" download><button>Download PDF Resume</button></a>
-    </div>
+      <h3>Church Theaters — Systems Architect & Engineer</h3>
+      <p>2023–2024</p>
+      <ul>
+        <li>Developed custom OAuth and CDN-backed CRM platform using Elixir and JS.</li>
+        <li>Managed marketing campaigns and technical delivery.</li>
+      </ul>
 
-    <div class="easter-egg">
-      <p id="easterText">Inspect the console if you're curious. 🐣</p>
-    </div>
-  </div>
+      <h3>Firefly Aerospace — Robotics & Lean Systems Engineer</h3>
+      <p>2021–2022</p>
+      <ul>
+        <li>Designed and implemented robotic systems and 3D CAD workflows.</li>
+        <li>Built automation dashboards for aerospace R&D.</li>
+      </ul>
+    </section>
 
+    <section>
+      <h2>Awards</h2>
+      <ul>
+        <li>NASA Plant the Moon Innovation Award (GeoGro)</li>
+      </ul>
+    </section>
+  </main>
+
+  <div class="egg">console.log('👁️ Curious minds explore deeper.')</div>
   <script>
-    // 🔒 Subtle JS Easter Egg
-    console.log("👀 Welcome fellow developer. This resume is built from scratch using pure HTML, CSS, and JS. Reach out if you're interested in collaborating on clean UI systems, real-time dashboards, or futuristic interfaces. 🚀\n- Johnathan");
-
-    // 🎲 Feature flag rollout simulation (example logic)
-    const userId = Math.floor(Math.random() * 1000);
-    const featureEnabled = userId % 5 === 0; // 20% chance
-    console.log(`Feature Flag: ${featureEnabled ? 'ENABLED' : 'DISABLED'} for user ${userId}`);
+    if (window.console && window.location.hostname.includes("resume")) {
+      console.log("%cYou found the easter egg. Let's build something legendary.", "color: teal; font-size: 14px;");
+    }
   </script>
 </body>
 </html>
